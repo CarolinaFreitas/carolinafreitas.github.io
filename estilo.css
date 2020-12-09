@@ -18,15 +18,18 @@ body {
 header {
     font-family: "Poppins", sans-serif ;
     font-weight: 100;
-    display: flexbox;
+    display: flex;
     height: 10vh;
     box-sizing: border-box;
     background-color: white;
-    margin:auto;
-
+    justify-content: center;
+}
+header a {
+    text-decoration:none;
 }
 .logo {
     float: inline-start;
+    font-weight: 900;
 }
 .logo h1 {
     padding: 1rem;
@@ -51,9 +54,18 @@ a:hover {
 
 .selecionado {
     padding: 1rem;
-    float: left;
-    font-weight: 600;
+    font-weight: 900;
     font-style: normal;
+    justify-content: center;
+    margin: auto;
+}
+.selecionado p{
+    font-style: normal;
+    text-decoration: none;
+}
+
+.selecionado a {
+    text-decoration: none;
 }
 
 p {
@@ -72,11 +84,24 @@ p {
     height: 30vh;
     width:30vw;
     background-color: black;
+    display: flex;
     
 }
 
+.quadrado article {
+    position: relative;
+    align-content: center;
+}
+.quadrado img {
+    max-height: 30vh;
+    width: auto;
+    
+}
 .quadrado h2 {
-    margin:auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #quadrado_janela {
     background-color: blue;
@@ -111,10 +136,12 @@ section .corpo {
     background-color: rgba(0, 0, 0, 0);
     min-height: 50vh;
     color: red;
+    max-width:800px;
+    margin: 1rem auto;
 }
 
 #curta01 {
-    background-image: ;
+    /* FALTA IMAGEM */
 }
 
 h3 {
