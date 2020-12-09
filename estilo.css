@@ -60,14 +60,14 @@ p {
 }
 
 .quadrado {
-    /*
-    height: 100px;
-    width:100px;
-    */
+    
+    height: 30vh;
+    width:30vw;
+    background-color: black;
 }
 
-#janela_quadrado {
-    background-image: url("imgs/janela_quadrado.png") ;
+#janela_curta {
+    background: url(imgs/curta01.png) ;
 }
 
 section .titulo {
