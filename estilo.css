@@ -10,7 +10,7 @@ body {
     background: rgb(240);
     background-size: 100vh;
     font-family: "Raleway", sans-serif ;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 1rem;
     padding: 0px;
 }
@@ -23,7 +23,6 @@ header {
     box-sizing: border-box;
     background-color: white;
     margin:auto;
-
 
 }
 .logo {
@@ -50,24 +49,44 @@ a:hover {
     padding: 1rem;
 }
 
+.selecionado {
+    padding: 1rem;
+    float: left;
+    font-weight: 600;
+    font-style: normal;
+}
+
 p {
     font-style: italic;
 }
 
 .destaque {
     background-color: white;
-
+    text-align:center;
+    display: flex;
+    justify-content: center;
 }
 
 .quadrado {
-    
+    min-width: 200px;
     height: 30vh;
     width:30vw;
     background-color: black;
+    
 }
 
-#janela_curta {
-    background: url(imgs/curta01.png) ;
+.quadrado h2 {
+    margin:auto;
+}
+#quadrado_janela {
+    background-color: blue;
+}
+
+#quadrado_curta {
+    background-color: red;
+    background: url(imgs/curta01.png);
+    background-position-x: -830px;
+    background-position-y: -320px;
 }
 
 section .titulo {
@@ -91,7 +110,7 @@ section .titulo {
 section .corpo {
     background-color: rgba(0, 0, 0, 0);
     min-height: 50vh;
-    color: white;
+    color: red;
 }
 
 #curta01 {
