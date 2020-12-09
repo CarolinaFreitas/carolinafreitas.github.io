@@ -52,6 +52,9 @@ a:hover {
     padding: 1rem;
 }
 
+#blog, #loja{
+    text-decoration: line-through double currentColor 5px;
+}
 .selecionado {
     padding: 1rem;
     font-weight: 900;
@@ -90,15 +93,18 @@ p {
 
 .quadrado article {
     position: relative;
-    align-content: center;
+    /*align-content: center;*/
 }
 .quadrado img {
+    /*position: absolute;
+    z-index:-1;*/
     max-height: 30vh;
     width: auto;
     
 }
 .quadrado h2 {
     position: absolute;
+    z-index: 1;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -108,10 +114,14 @@ p {
 }
 
 #quadrado_curta {
-    background-color: red;
-    background: url(imgs/curta01.png);
+    /*background-color: red;
+    background: url(imgs/curta01.png);*/
+    height: 30vh;
+    width: auto;
+    /*
     background-position-x: -830px;
     background-position-y: -320px;
+    */
 }
 
 section .titulo {
@@ -126,6 +136,8 @@ section .titulo {
     background: linear-gradient(0deg, rgb(255, 192, 203, 1), rgb(204, 204, 255, 1));
     background-attachment: fixed;
 
+    font-weight: 100;
+
 }
 .titulo div {
     position: sticky;
@@ -135,10 +147,12 @@ section .titulo {
 section .corpo {
     background-color: rgba(0, 0, 0, 0);
     min-height: 50vh;
-    color: red;
-    max-width:800px;
+    color: rgb(0, 0, 50);
+    max-width:600px;
     margin: 1rem auto;
+    font-weight: 200;
 }
+
 
 #curta01 {
     /* FALTA IMAGEM */
