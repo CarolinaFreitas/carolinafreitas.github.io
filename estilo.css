@@ -1,0 +1,111 @@
+html {
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+body {
+    background: rgb(240);
+    background-size: 100vh;
+    font-family: "Raleway", sans-serif ;
+    font-weight: 100;
+    font-size: 1rem;
+    padding: 0px;
+}
+
+header {
+    font-family: "Poppins", sans-serif ;
+    font-weight: 100;
+    display: flexbox;
+    height: 10vh;
+    box-sizing: border-box;
+    background-color: white;
+    margin:auto;
+
+
+}
+.logo {
+    float: inline-start;
+}
+.logo h1 {
+    padding: 1rem;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+.links {
+    float: inline-end;
+    display: flex;
+    flex-direction: row;
+    right: 0px;
+}
+.links p {
+    padding: 1rem;
+}
+
+p {
+    font-style: italic;
+}
+
+.destaque {
+    background-color: white;
+
+}
+
+.quadrado {
+    /*
+    height: 100px;
+    width:100px;
+    */
+}
+
+#janela_quadrado {
+    background-image: url("imgs/janela_quadrado.png") ;
+}
+
+section .titulo {
+    height: 100vh;
+    color: black;
+    text-align: center;
+    /*float: center;*/
+    margin:auto;
+
+    /*justify-content: center;*/
+
+    background: linear-gradient(0deg, rgb(255, 192, 203, 1), rgb(204, 204, 255, 1));
+    background-attachment: fixed;
+
+}
+.titulo div {
+    position: sticky;
+    top: 45vh; 
+    left: 0vh;
+}
+section .corpo {
+    background-color: rgba(0, 0, 0, 0);
+    min-height: 50vh;
+    color: white;
+}
+
+#curta01 {
+    background-image: ;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+#voltaaotopo {
+    opacity:0.5;
+    height: 10vh;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
