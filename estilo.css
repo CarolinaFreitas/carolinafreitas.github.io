@@ -21,6 +21,10 @@ body {
     
 }
 
+.hidden {
+    display: none;
+}
+
 header {
     font-family: "Poppins", sans-serif ;
     font-weight: 100;
@@ -30,14 +34,27 @@ header {
     box-sizing: border-box;
     background-color: white;
     justify-content: center;
+    
 }
+#sidenav {
+    width: 0;
+}
+
+.hamburguer {
+    width: 20px;
+    height:20px;
+    background-color: red;
+}
+
 header a {
     text-decoration:none;
 }
+
 .logo {
     float: inline-start;
     font-weight: 900;
 }
+
 .logo h1 {
     padding: 1rem;
 }
@@ -56,9 +73,8 @@ a:hover {
     flex-direction: row;
     right: 0px;
 }
-.links p {
-    padding: 1rem;
-}
+
+
 
 #blog, #loja{
     text-decoration: line-through double currentColor 5px;
@@ -81,6 +97,7 @@ a:hover {
 
 p {
     font-style: italic;
+    padding: 1rem;
 }
 
 .destaque {

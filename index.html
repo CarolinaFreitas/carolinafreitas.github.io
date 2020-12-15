@@ -9,9 +9,12 @@
 
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="estilo.css">
+        
+        <script src="script.js"></script> 
     </head>
     <body>
-        <header>
+        <div class="hamburguer" onclick="openNav()" ></div>
+        <header id="sidenav">
             <div class="logo">
                 <h1 id="nome">Carolina Freitas</h1>
             </div>
@@ -35,7 +38,7 @@
                         <h2>#tecnologia</h2>
                     </article>
                 </a>
-                <a href="#curta1">
+                <a href="#curta1" class="hidden" >
                     <article class="quadrado" id="quadrado_curta">
                         <img src="imgs/curta01.png" />
                         <h2>#curtas</h2>
@@ -59,7 +62,7 @@
             </section>
 
             <section id="portifolio" class="portifolio">
-                <article id="curta1">
+                <article id="curta1" class="hidden">
                     <section class="titulo">
                         <div>
                             <h3>Curta #01</h3>
