@@ -185,7 +185,7 @@ section .titulo {
 }
 
 .titulo h3 {
-    font-weight: 900;
+    font-weight: 600;
     font-size:3rem;
     font-family: "Poppins", sans-serif;
     /*
@@ -194,15 +194,27 @@ section .titulo {
 }
 
 .imgsFundo {
-    position: absolute;
+    position: relative;
     z-index: -1;
+    display: flex;
+    width: 100vw;
+    
 }
 
 #janelas_areacriança {
-    position: absolute;
-    width: 30vh;
-    top: 1vh;
+    display: flex;
+    width: 40vh;
+    top: 15vh;
     left: 10vw;
+    position: absolute;
+    z-index: -1;
+}
+#janelas_teladescanso {
+    width: 30vh;
+    top: 40vh;
+    right: 10vw;
+    position: absolute;
+    z-index: -2;
 }
 
 section .corpo {
