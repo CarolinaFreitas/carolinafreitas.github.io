@@ -40,7 +40,7 @@ header {
     width: 0;
 }
 
-.hamburguer {
+#hamburguer {
     width: 20px;
     height:20px;
     background-color: red;
@@ -139,7 +139,7 @@ p {
     transform: translate(-50%, -50%);*/
 }
 #quadrado_janela {
-    background-color: blue;
+    background-color: rgb(63, 63, 230);
 }
 
 #quadrado_curta {
@@ -153,7 +153,7 @@ p {
 }
 
 #quadrado_desenhos {
-    background-color: red;
+    background-color: tomato;
 }
 
 #bio {
@@ -164,28 +164,51 @@ p {
 }
 section .titulo {
     height: 100vh;
-    color: black;
     text-align: center;
     /*float: center;*/
     margin:auto;
 
     /*justify-content: center;*/
 
+    /*
     background: linear-gradient(0deg, rgb(204, 204, 255, 1),  rgb(255, 192, 203, 0.5));
+    */
+    color:rgb(63, 63, 230);
     background-attachment: fixed;
 
-    font-weight: 900;
-
 }
-.titulo div {
+
+.titulo .titulos{
     position: sticky;
     top: 45vh; 
     left: 0vh;
 }
+
+.titulo h3 {
+    font-weight: 900;
+    font-size:3rem;
+    font-family: "Poppins", sans-serif;
+    /*
+    font-variant-caps: all-small-caps;
+    */
+}
+
+.imgsFundo {
+    position: absolute;
+    z-index: -1;
+}
+
+#janelas_areacriança {
+    position: absolute;
+    width: 30vh;
+    top: 1vh;
+    left: 10vw;
+}
+
 section .corpo {
     background-color: rgba(0, 0, 0, 0);
     min-height: 50vh;
-    color: rgb(0, 0, 50);
+    color: black;
 
 
     font-weight: 200;
@@ -209,8 +232,9 @@ h3 {
 
 #voltaaotopo {
     opacity:0.5;
-    height: 10vh;
+    height: 7vh;
     position: fixed;
     right: 10px;
     bottom: 10px;
 }
+
