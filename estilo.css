@@ -111,19 +111,8 @@ a:hover {
     right: 0px;
 }
 
-#logo, #centro, #nav_links {
-    z-index:5;
-}
-
-/*
-#blog, #loja{
-    text-decoration: line-through double currentColor 5px;
-}
-*/
-
-
 .centro {
-    padding: 1rem;
+    padding: 0rem;
     font-weight: 900;
     font-style: normal;
     justify-content: center;
@@ -301,3 +290,6 @@ h3 {
     bottom: 10px;
 }
 
+#loop_principal{
+    margin:0 auto;
+}
