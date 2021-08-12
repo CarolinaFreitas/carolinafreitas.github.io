@@ -269,9 +269,7 @@ article img {
 
 
 section .corpo {
-    background-color: rgba(0, 0, 0, 0);
     min-height: 50vh;
-    color: black;
     min-height: 100vh;
     font-weight: 200;
     z-index: 0;
@@ -283,8 +281,12 @@ section .corpo {
     padding:1rem;
     left: 50%;
     translate: 0, -50%;
-    background-color: black;
     color:white;
+    color: rgb(172, 172, 235);
+
+}
+.highlight_preto {
+    background-color: black;
 }
 
 h3 {
