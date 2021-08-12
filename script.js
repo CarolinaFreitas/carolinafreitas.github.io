@@ -10,6 +10,7 @@ var options = {
 grained('#quadrado', options);
 grained('#container', options);
 grained('#bio', options);
+grained('#loop_principal', options);
 /*
 
 function openNav() {

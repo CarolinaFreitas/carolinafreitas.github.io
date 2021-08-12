@@ -207,8 +207,9 @@ p {
 section .titulo {
     height: 100vh;
     text-align: center;
+    min-height: 10vh;
     /*float: center;*/
-    margin:auto;
+    margin:10vh auto;
 
     /*justify-content: center;*/
 
@@ -230,7 +231,10 @@ section .titulo {
     font-weight: 600;
     font-size:3rem;
     font-family: "Poppins", sans-serif;
-    /*
+    color: rgb(172, 172, 235);
+     /*
+     text-decoration: underline solid white 5px;
+   
     font-variant-caps: all-small-caps;
     */
 }
@@ -240,6 +244,7 @@ section .titulo {
     z-index: -1;
     display: flex;
     width: 100vw;
+    height:auto;
     
 }
 article img {
@@ -268,9 +273,8 @@ section .corpo {
     min-height: 50vh;
     color: black;
     min-height: 100vh;
-    height: 100vh;
-
     font-weight: 200;
+    z-index: 0;
 }
 
 .corpo p {
