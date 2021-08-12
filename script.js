@@ -1,3 +1,4 @@
+/*
 var options = {
   animate: true,
   patternWidth: 100,
@@ -7,10 +8,11 @@ var options = {
   grainWidth: 1,
   grainHeight: 1
 };
-grained('#quadrado', options);
-grained('#container', options);
-grained('#bio', options);
-grained('#loop_principal', options);
+*/
+//grained('#quadrado', options);
+//grained('#container', options);
+//grained('#bio', options);
+//grained('#loop_principal', options);
 /*
 
 function openNav() {
